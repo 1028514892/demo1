@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.GetMapping;
  * @date 2020/3/9 - 0:15
  */
 @Controller
-public class UserController {
-    @GetMapping("/hello")
+public class IndexController {
+    @GetMapping("/")
     public String aa(){
 
         return "index";
